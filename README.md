@@ -43,6 +43,24 @@ A beautiful, responsive weather dashboard built with React.js that provides real
 
 ## 📦 Dependencies
 
+# Clone the repository
+git clone https://github.com/erummirza/weather-app-react.git
+
+# Navigate to project
+cd weather-app-react
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+
 ### Production Dependencies
 ```json
 {
