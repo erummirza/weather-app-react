@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 🌤️ Weather Dashboard - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, responsive weather dashboard built with React.js that provides real-time weather information and 5-day forecasts.
 
-## Available Scripts
+![Weather Dashboard](https://via.placeholder.com/1200x600/0b2a4a/f9d976?text=Weather+Dashboard+React)
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🌍 **Search Weather** - Get weather for any city worldwide
+- 📍 **Location Detection** - Auto-detect your current location
+- 🌡️ **Temperature Units** - Toggle between °C and °F
+- 💾 **Recent Searches** - Save last 5 searches in localStorage
+- 📱 **Responsive Design** - Works on all devices
+- 🎨 **Modern UI** - Glassmorphism design with beautiful animations
+- 🔄 **Real-time Data** - Live weather updates from OpenWeatherMap
+- 📊 **5-Day Forecast** - Detailed weather predictions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Core Technologies**
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| React.js | 18.2.0 | UI Framework |
+| JavaScript | ES6+ | Application Logic |
+| HTML5 | - | Structure |
+| CSS3 | - | Styling |
 
-### `npm test`
+### **Libraries & APIs**
+| Library | Version | Purpose |
+|---------|---------|---------|
+| Font Awesome | 6.x | Icons |
+| OpenWeatherMap API | - | Weather Data |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Development Tools**
+| Tool | Purpose |
+|------|---------|
+| Node.js | JavaScript Runtime |
+| npm | Package Manager |
+| Create React App | Project Setup |
+| Git | Version Control |
+| GitHub | Code Hosting |
+| GitHub Pages | Deployment |
 
-### `npm run build`
+## 📦 Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Production Dependencies
+```json
+{
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "@fortawesome/fontawesome-svg-core": "^6.4.0",
+  "@fortawesome/free-solid-svg-icons": "^6.4.0",
+  "@fortawesome/react-fontawesome": "^0.2.0"
+}
